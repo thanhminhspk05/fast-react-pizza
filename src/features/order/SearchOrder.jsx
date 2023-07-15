@@ -7,9 +7,9 @@ function SearchOrder() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(query);
+    console.log('submit');
 
-    if (query) return;
+    if (!query) return;
     navigate(`/order`);
     setQuery('');
   };
