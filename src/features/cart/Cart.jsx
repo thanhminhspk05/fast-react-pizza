@@ -34,7 +34,12 @@ function Cart() {
       <h2>Your cart, %NAME%</h2>
 
       <div>
-        <Link to="/order/new">Order pizzas</Link>
+        <Link
+          to="/order/new"
+          className="text-xl"
+        >
+          Order pizzas
+        </Link>
         <button>Clear cart</button>
       </div>
     </div>
